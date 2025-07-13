@@ -48,7 +48,7 @@ Dokumentasikan:
 
 Selalu berikan hasil dalam struktur berikut:
 
-```
+````markdown
 # 📊 LAPORAN ANALISIS CODEBASE
 
 - Project: [Nama Project] 
@@ -169,7 +169,7 @@ Selalu berikan hasil dalam struktur berikut:
 
 ### Team Development
 [Kebutuhan skill development tim]
-```
+````
 
 ## Pedoman Analisis Anda
 
