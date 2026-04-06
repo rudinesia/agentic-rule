@@ -58,3 +58,48 @@ Before finalizing, verify:
 - [ ] Every table has a header row
 - [ ] All ambiguous items are marked <!-- UNCERTAIN: reason -->
 - [ ] tech-stack.md contains exact version numbers (not "latest")
+
+# FOLLOW INDEX.MD TEMPLATE
+```markdown
+<!-- TLDR: [App name] — [1-sentence purpose] -->
+
+# [App Name] — Architecture Index
+
+## Application summary
+| Property       | Value |
+| -------------- | ----- |
+| Purpose        |       |
+| Primary users  |       |
+| Core domain    |       |
+| Production URL |       |
+| Repository     |       |
+
+## Technology at a glance
+| Layer    | Technology | Version |
+| -------- | ---------- | ------- |
+| Frontend |            |         |
+| Backend  |            |         |
+| Database |            |         |
+| Cache    |            |         |
+| Queue    |            |         |
+| Auth     |            |         |
+| Infra    |            |         |
+
+## Documentation map
+- [tech-stack](./tech-stack.md) — languages, frameworks, dependencies
+- [architecture](./architecture.md) — system design, component topology
+- [data-model](./data-model.md) — schema, entities, relations
+- [api](./api.md) — endpoints, contracts
+- [business-flow](./business-flow.md) — user journeys, business rules
+- [frontend](./frontend.md) — UI layer, routing, state
+- [backend](./backend.md) — services, modules, patterns
+- [integrations](./integrations.md) — external services
+- [security](./security.md) — auth, roles, secrets
+
+## Key architectural decisions
+1. <!-- ADR-001: e.g., chosen monolith over microservices because... -->
+2. <!-- ADR-002: -->
+
+## Known gaps
+<!-- List items that could not be determined from code alone -->
+```
