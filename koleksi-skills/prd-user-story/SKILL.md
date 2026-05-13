@@ -1,6 +1,6 @@
 ---
 name: prd-user-story
-description: Skill untuk membuat PRD dan User Story sesuai format ARRUMI untuk fitur baru.
+description: Skill untuk membuat PRD dan User Story untuk fitur baru.
 ---
 
 # PRD & User Story Skill
@@ -10,9 +10,9 @@ Gunakan skill ini untuk membuat dokumentasi kebutuhan produk (PRD) dan alur peng
 ## 📂 Lokasi File & Penamaan
 - **PRD**: `docs/features/[modul]/[modul]-prd.md`
 - **User Story**: `docs/features/[modul]/[modul]-user-story.md`
-- **Link**: WAJIB Relative Path (Skill `obsidian-markdown-links`).
+- **Link**: WAJIB Relative Path.
 
-## 🏗️ Template Standar ARRUMI
+## 🏗️ Template
 
 ### 1. Product Requirements Document (PRD)
 - **Ringkasan**: "Why" fitur ini dibangun.
@@ -31,7 +31,7 @@ Gunakan format **Verb-Noun** (`US-DASH-01: View Dashboard Stats`).
 - **DoD (Definition of Done)**: Linter pass, RLS verified, Mobile-friendly.
 
 ## 🏷️ Kode Modul Standard
-`AUTH` (Auth), `DASH` (Dash), `PROF` (Profil), `SDM` (SDM), `SAR` (Sarana), `KEU` (Keu), `KIN` (Kin), `ADM` (Admin), `RNST` (Renstra), `EPI` (Penyakit).
+`AUTH` (Auth), `DASH` (Dashboard), `PROF` (Profil), `ADM` (Admin).
 
 ## ✅ Checklist Review
 - [ ] Requirement atomic & testable.
