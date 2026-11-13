@@ -1,13 +1,13 @@
 ---
 name: prd-user-story
-description: Skill untuk membuat PRD dan User Story untuk fitur baru. Output wajib direview PM sebelum lanjut ke Engineering Task.
+description: Skill untuk membuat PRD dan User Story untuk fitur baru. Output wajib direview PM sebelum lanjut ke UI/UX Spec.
 ---
 
 # PRD & User Story Skill
 
 Gunakan skill ini untuk membuat dokumentasi kebutuhan produk (PRD) dan alur pengguna (User Story) terstandarisasi.
 
-> ⚠️ **WORKFLOW RULE**: Setelah output selesai, agent WAJIB berhenti dan menunggu konfirmasi PM sebelum melanjutkan ke Engineering Task atau eksekusi apapun.
+> ⚠️ **WORKFLOW RULE**: Setelah output selesai, agent WAJIB berhenti dan menunggu konfirmasi PM sebelum melanjutkan ke UI/UX Spec atau eksekusi apapun.
 
 ## 📋 Pre-Flight (WAJIB sebelum menulis)
 1. Baca `AGENTS.md` di root — pastikan tidak ada konflik arsitektur
@@ -203,7 +203,7 @@ Setelah dokumen selesai, agent WAJIB menulis pesan berikut dan BERHENTI:
 - docs/features/[modul]/[modul]-user-story.md
 
 🔍 Mohon review dokumen di atas.
-Jika sudah sesuai, ketik: "Lanjut Engineering Task"
+Jika sudah sesuai, ketik: "Lanjut UI Spec"
 Jika ada revisi, sebutkan bagian yang perlu diubah.
 
 ⏸️ Saya menunggu konfirmasi sebelum melanjutkan.
